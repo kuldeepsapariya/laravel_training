@@ -8,4 +8,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public', // This replaces the --output public flag
+        emptyOutDir: true,
+  },
 });
